@@ -43,7 +43,7 @@ Output: A folder for each variant with the following files:
 ## Instructions
 1. Install the requiered modules:
 ~~~
-pip install requirements.txt
+pip install -r requirements.txt
 ~~~
 2. Change the email, api key and filename inside the code. All is commented in the Main function.
 3. Run the code in the folder you want the program to store the results. It will create a folder results and each variant in a new subfolder.

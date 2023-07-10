@@ -4,7 +4,7 @@ The code of this repository is a pipeline approach that automatically integrates
 
 It aims to bridge the gap between genetic variant information and disease associations by providing a systematic framework for discovering and analyzing relevant literature. Although the pipeline has limitations, it still uncovers additional articles not referenced in expert reports that mention the genetic variants of interest. 
 
-###Process
+## Process
 Given a variant, a gene and a disease:
 1. The pipeline begins by querying the NCBI Gene database using the gene of interest to retrieve gene information; 
 2. Using the gene aliases obtained in the previous step, the pipeline queries the SynVar database to generate a list of unique syntactic variations 
@@ -15,7 +15,7 @@ It retrieves articles that mention the gene and the variant;
 5. Finally, the pipeline filters the retrieved articles based on disease associations. 
 Articles that do not mention the specified disease or its synonymous terms are excluded from further analysis.
 
-###Inputs and outputs
+## Inputs and outputs
 Input: A csv file with the following columns: variant, gene, disease. Each row is a different variant.
 Output: A folder for each variant with the following files:
   - data.json: a json file with the following information:
@@ -36,8 +36,23 @@ Output: A folder for each variant with the following files:
       - pubtator_annotations.json: a json file with the annotations of the articles retrieved from pubtator, for each article.
   - filter.json: a json file with the list of articles that mention the disease or its synonyms, for each article.
 
-###Requirements
-This pipeline requires an Entrez API key. To get one, go to https://www.ncbi.nlm.nih.gov/account/settings/ and create an API key.
+## Requirements
+- This pipeline requires an Entrez API key. To get one, go to https://www.ncbi.nlm.nih.gov/account/settings/ and create an API key.
+- The code is written in python and tested in version 3.10.11
 
-###Instructions
+## Instructions
+1. Install the requiered modules:
+~~~
+pip install requirements.txt
+~~~
+2. Change the email, api key and filename inside the code. All is commented in the Main function.
+3. Run the code in the folder you want the program to store the results. It will create a folder results and each variant in a new subfolder.
+~~~
+python pipeline.py
+~~~ 
 
+## Examples
+The folder examples includes the test examples used for testing the pipeline.
+
+## Results 
+The folder results includes the results obtained running the pipeline with the test examples.

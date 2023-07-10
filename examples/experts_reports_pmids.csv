@@ -1,0 +1,70 @@
+Variante (expresión proteica);Gen;Fenotipo de interés;PubMed ID
+Asn1271Lys;MYH7;Miocardiopatía dilatada (Dilated Cardiomyopathy);26220970
+Asp1272His;MYH7;Miocardiopatía dilatada (Dilated Cardiomyopathy);27247418
+Val411Met;SCN5A;Síndrome de QT largo (Long QT Syndrome);10961955
+;;;15840476
+;;;16712702
+;;;19716085
+;;;19862833
+;;;20541041
+;;;21185501
+;;;21193062
+;;;22360817
+;;;2022721569
+;;;23098067
+;;;22721569
+;;;24606995
+;;;2024709866
+;;;24903439
+;;;25904541
+;;;26496715
+;;;3005997
+;;;22460359
+;;;22885918
+;;;23158531
+;;;23631430
+;;;26669661
+;;;26940925
+;;;28150151
+Asp2Asn;PAX5;Hepatoblastoma;28572459
+Arg1012Ter;STAG2;Sarcome Ewing;19886810
+;;;24854081
+;;;23443460
+;;;24854081
+Ile258Val;"PDGFRA";Sarcome Ewing;15928335
+;;;12522257
+;;;12660384
+;;;8988177
+Pro1685Leu ;PLXNB2;Hepatic Sarcoma;15928335
+;;;12522257
+;;;12660384
+;;;8988177
+Arg2072Gln;"ROS1";Hepatic Sarcoma;2827175
+;;;2352949
+;;;12661006
+;;;18083107
+;;;21253578
+Ala670Val;HCN1;Ependynoma;30351409
+Ser333Phe;ATM;Ependynoma;9827931
+Arg365Gln;RAD50;Ependynoma;31767017
+Ala670Val;HCN1;Neuroblastome;30351409
+Tyr776Ter;TSC2;RHABDOMYOSARCOMA;12842888
+Fusion;KMT2A-CASC5.K8C12;ACUTE MYELOID LEUKEMIA;15041229
+;;;24425691
+;;;7630191
+Fusion;"KMT2A-MLLT3.K7M9 KMT2A-MLLT3.K8M9";Acute Myeloid leukemia;29720585
+;;;30203571
+;;;29532520
+;;;33020282
+Fusion;P2RY8-CRLF2.P1C1.1 ;Acute Myeloid leukemia;27899802
+Ser273Cys;MRE11;Nefroblastome;31767017
+Lys1296Arg;DOCK3;Acute Myeloid leukemia;26716413
+Thr1010Ile;MET;Tumor maligno de la vaina nerviosa periférica;9140397
+;;;10734314
+;;;9927037
+;;;14559814
+;;;17463250
+;;;10223227
+;;;16186806
+;;;18077431
+;;;21478826

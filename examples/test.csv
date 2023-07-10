@@ -1,0 +1,17 @@
+variant;gene;disease
+Asn1271Lys;MYH7;Dilated Cardiomyopathy
+Asp1272His;MYH7;Dilated Cardiomyopathy
+Val411Met;SCN5A;Long QT Syndrome
+Asp2Asn;PAX5;Hepatoblastoma
+Arg1012Ter;STAG2;Sarcome Ewing
+Ile258Val;PDGFRA;Sarcome Ewing
+Pro1685Leu;PLXNB2;Hepatic Sarcoma
+Arg2072Gln;ROS1;Hepatic Sarcoma
+Ala670Val;HCN1;Ependynoma
+Ser333Phe;ATM;Ependynoma
+Arg365Gln;RAD50;Ependynoma
+Ala670Val;HCN1;Neuroblastome
+Tyr776Ter;TSC2;RHABDOMYOSARCOMA
+Ser273Cys;MRE11;Nefroblastome
+Lys1296Arg;DOCK3;Acute Myeloid leukemia
+Thr1010Ile;MET;Malignant tumor of the peripheral nerve sheath

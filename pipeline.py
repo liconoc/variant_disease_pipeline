@@ -456,8 +456,8 @@ def filter_by_disease(folder, api_key):
                                                     break
 
             #Save results
-            with open("results/"+folder+"/filter.json", 'w') as outfile:
-                json.dump(outfile, indent=4)
+            with open(folder+"/filter.json", 'w') as outfile:
+                json.dump(results, outfile, indent=4)
                 print("Results saved in "+folder+"/filter.json")
         
                                 
